@@ -1,0 +1,20 @@
+<header class="site-header">
+
+  <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.pages | where: "type", "navigation" | map: "path" | default: default_paths -%}
+    {%- assign page_titles = page_paths | map: 'title' | compact %}
+		<a class="site-title" href="/"></a>
+
+    {%- unless page_paths == empty %}
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        {% include nav-items.html paths = page_paths %}
+      </nav>
+    {%- endunless %}
+  </div>
+</header>
