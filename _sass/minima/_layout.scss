@@ -36,7 +36,7 @@
 }
 
 .footnotes {
-  margin: 3px 0px;
+  margin: 3*$spacing-unit 0px;
   border-top: 1px solid black;
 }
 
@@ -52,9 +52,18 @@
 	top: 5px;
 }
 
+.site-nav-bottom {
+  position: absolute;
+  max-width: 800px;
+  bottom: 0;
+}
+
 .site-nav {
-  float: right;
-  vertical-align: bottom;
+  display: flex;
+  align-self: flex-end;
+  flex-grow: 4;
+  justify-content: flex-end;
+  bottom: 0;
   border: none;
   background-color: inherit;
 
@@ -114,7 +123,7 @@
       }
       ~ .nav-items {
         clear: both;
-        display: none
+        display: none;
       }
       &:checked {
       ~ label[for=nav-trigger] .menu-icon {
@@ -348,10 +357,15 @@
     a {
       display: block;
       padding: 10px 12px;
-      border: 1px solid $border-color-01;
+      background-color: $border-color-01;
       &:hover { border-color: $border-color-02 }
     }
   }
+}
+
+.social-media-title {
+  margin: 0 auto;
+  font-size: $small-font-size;
 }
 
 

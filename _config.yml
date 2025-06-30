@@ -34,6 +34,10 @@ theme: minima
 plugins:
   - jekyll-feed
 
+minima:
+  social_links:
+    - { title: "Join Us On Slack", url: https://join.slack.com/t/stamprs/shared_invite/zt-38ml9tigx-YdYm0H5mdI5_HVWsuHu1SQ, icon: slack }
+    - { title: "Github", url: https://www.github.com/cerfcast/stamprs, icon: github }
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -45,6 +49,7 @@ plugins:
 exclude:
   - references/
   - node_modules/
+  - README.md
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

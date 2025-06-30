@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About
+title: Extensions
 type: navigation
-order: a
-permalink: /about/
+order: d
+permalink: /extensions/
 ---
 
 Coming soon.
