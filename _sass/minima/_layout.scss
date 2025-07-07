@@ -306,6 +306,10 @@
   }
 }
 
+.post {
+  max-width: inherit;
+}
+
 .post-content {
   margin-bottom: $spacing-unit;
 
