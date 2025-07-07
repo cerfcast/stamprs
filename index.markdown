@@ -35,6 +35,7 @@ STAMP is not a unicorn. It's real and the STAMPrs are here to help you deploy it
 | [Usage](/usage) | Best practices on deploying STAMP (including sample configurations) |
 | [Implementations](/implementation) | Find out which where to get implementations of STAMP -- for servers and/or network-device operating systems.|
 | [Extensions](/extensions) | Get information about all the optional measurements types supported by STAMP. |
+| [Interoperability with TWAMP Light](/interop-twamp-light) | Get information about how implementations of STAMP interoperate with implementations of TWAMP Light. |
 
 We would _love_ to have you join our Slack community, too! We're a welcoming bunch and would love to meet you. Join using [this link](https://join.slack.com/t/stamprs/shared_invite/zt-38ml9tigx-YdYm0H5mdI5_HVWsuHu1SQ) or click on the Slack logo below.
 
