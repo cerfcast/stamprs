@@ -32,7 +32,7 @@ That is _exactly_ what makes STAMP the incredible protocol it is. STAMP is an ex
 STAMP is not a unicorn. It's real and the STAMPrs are here to help you deploy it. The table below will guide you through _some_ of the resources available here. 
 
 | [Specifications](/specs) | Go straight to the source: An up-to-date list of specifications promulgated by standards bodies throughout the world describing the design, implementation and deployment of STAMP. |
-| [Usage](/usage) | Best practices on deploying STAMP (including sample configurations) |
+| [Deploying](/deploying) | Best practices on deploying STAMP (including sample configurations) |
 | [Implementations](/implementation) | Find out which where to get implementations of STAMP -- for servers and/or network-device operating systems.|
 | [Extensions](/extensions) | Get information about all the optional measurements types supported by STAMP. |
 | [Interoperability with TWAMP Light](/interop-twamp-light) | Get information about how implementations of STAMP interoperate with implementations of TWAMP Light. |

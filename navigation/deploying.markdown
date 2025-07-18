@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Deployments
+title: Deploying
 type: navigation
 order: b
-permalink: /deployments/
+permalink: /deploying/
 ---
 
 ## Usage Scenarios
@@ -34,7 +34,4 @@ When your Session Sender receives reflected packets, there are myriad conclusion
 
 [^one-way]: Yes, if the clocks on your Session Sender and their Session Reflector are synchronized, your Session Sender can determine one-way transit time. Oh, and, _yes_, STAMP as defined in [RFC 8762](https://datatracker.ietf.org/doc/rfc8762/) includes a mechanism for Session Senders and Session Reflectors to communicate that their clocks are synchronized!
 
-[^stamp-extensions]: Mirsky, Greg, Xiao Min, Henrik Nydell, Richard "Footer" Foote, Adi
-Masputra, and Ernesto Ruffini. 2021. "Simple Two-Way Active Measurement
-Protocol Optional Extensions." Request for Comments. RFC 8972; RFC
-Editor. <https://doi.org/10.17487/RFC8972>.
+[^stamp-extensions]: Mirsky, Greg, Xiao Min, Henrik Nydell, Richard "Footer" Foote, Adi Masputra, and Ernesto Ruffini. 2021. "Simple Two-Way Active Measurement Protocol Optional Extensions." Request for Comments. RFC 8972; RFC Editor. <https://doi.org/10.17487/RFC8972>.
