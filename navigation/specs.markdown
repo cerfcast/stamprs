@@ -47,7 +47,4 @@ Information on this page is always subject to change. The IPPM WG maintains an a
 
 [^assym]: Mirsky, Greg, Ernesto Ruffini, Henrik Nydell, Richard "Footer" Foote, and Will Hawkins. 2025. "Performance Measurement with Asymmetrical Traffic Using STAMP." Internet-Draft draft-ietf-ippm-asymmetrical-pkts-08. Internet Engineering Task Force; Internet Engineering Task Force. <https://datatracker.ietf.org/doc/draft-ietf-ippm-asymmetrical-pkts/08/>.
 
-[^stamp-extensions]: Mirsky, Greg, Xiao Min, Henrik Nydell, Richard "Footer" Foote, Adi
-Masputra, and Ernesto Ruffini. 2021. “Simple Two-Way Active Measurement
-Protocol Optional Extensions.” Request for Comments. RFC 8972; RFC
-Editor. <https://doi.org/10.17487/RFC8972>.
+[^stamp-extensions]: Mirsky, Greg, Xiao Min, Henrik Nydell, Richard "Footer" Foote, Adi Masputra, and Ernesto Ruffini. 2021. “Simple Two-Way Active Measurement Protocol Optional Extensions.” Request for Comments. RFC 8972; RFC Editor. <https://doi.org/10.17487/RFC8972>.
