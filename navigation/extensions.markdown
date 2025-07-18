@@ -5,5 +5,3 @@ type: navigation
 order: d
 permalink: /extensions/
 ---
-
-Coming soon.
