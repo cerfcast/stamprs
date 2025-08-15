@@ -42,3 +42,5 @@ We would _love_ to have you join our Slack community, too! We're a welcoming bun
 ### I'm a STAMPr And Want To Help
 
 Awesome! The site is developed using [Jekyll](https://jekyllrb.com/) and the code is available at [Github](https://github.com/cerfcast/stamprs). You wil find documentation for contributing in [`README.md`](https://github.com/cerfcast/stamprs). We would really _love_ contributions! If you are looking for ways to help, check out the [Issues](https://github.com/cerfcast/stamprs/issues) and look for the [`TODO`](https://github.com/cerfcast/stamprs/issues?q=is%3Aissue%20state%3Aopen%20label%3ATODO) tag!
+
+And, finally, keep your eyes and ears out for any changes to STAMP that could be made to keep it relevant as the Internet grows and evolves. If you would like to join the discussion about changes to the based STAMP to keep it useful for network operators and architects, head to the [STAMP BIS page](/bis/).
