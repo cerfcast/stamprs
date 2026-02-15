@@ -16,3 +16,4 @@ The following is a (almost surely) incomplete list of known implementations of S
 | Teaparty | Independent | [Source](https://github.com/cerfcast/teaparty)
 | Nokia Service Router, Service Switch, and Extensible Routing System | Nokia | [Documentation](https://infocenter.nokia.com/public/7750SR227R1A/index.jsp?topic=%2Fcom.nokia.OAM_Guide%2Fip_performance_twamp.html)
 | Nokia Service Router Linux (SR Linux) | Nokia | [Documentation](https://documentation.nokia.com/srlinux/25-7/books/oam/oam_fault_and_performance_tools_and_protocols.html#stamp-oam)
+| stamp-suite | Piotr Olszewski | [Source](https://github.com/asmie/stamp-suite)
