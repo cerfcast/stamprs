@@ -8,12 +8,12 @@ permalink: /specs/
 
 ## STAMP Specifications
 
-The [IPPM working group](https://datatracker.ietf.org/wg/ippm/about/) of the [IETF](https://www.ietf.org/) is currently the body where _most_ of the work specifying STAMP is being done. The base STAMP is specified in [RFC 8762](https://datatracker.ietf.org/doc/rfc8762/). Support for extensions was added with [RFC 8972](https://datatracker.ietf.org/doc/rfc8972/).
+The [BPM working group](https://datatracker.ietf.org/wg/bpm/about/) of the [IETF](https://www.ietf.org/) is currently the body where _most_ of the work specifying STAMP is being done.[^new-name] The base STAMP is specified in [RFC 8762](https://www.rfc-editor.org/info/rfc8762/). Support for extensions was added with [RFC 8972](https://www.rfc-editor.org/info/rfc8972/).
 
 | RFC | Title | URL |
 | -- | -- | -- |
-| RFC 8762 | Simple Two-Way Active Measurement Protocol | [URL](https://datatracker.ietf.org/doc/rfc8762/) |
-| RFC 8972 | Simple Two-Way Active Measurement Protocol Optional Extensions | [URL](https://datatracker.ietf.org/doc/rfc8972/) |
+| RFC 8762 | Simple Two-Way Active Measurement Protocol | [URL](https://www.rfc-editor.org/info/rfc8762/) |
+| RFC 8972 | Simple Two-Way Active Measurement Protocol Optional Extensions | [URL](https://www.rfc-editor.org/info/rfc8972/) |
 
 ### STAMP Extensions
 
@@ -21,14 +21,14 @@ The base features of STAMP are powerful. However, those features are just the be
 
 | RFC | Title | URL | Description | TLV(s) |
 | -- | -- | -- | -- | -- |
-| RFC 8972 | Simple Two-Way Active Measurement Protocol Optional Extensions | [URL](https://datatracker.ietf.org/doc/rfc8972/) | In addition to specifying the means for extending STAMP to allow additional, optional functionality, RFC 8972 also specified several extensions. | Extra Padding, Location, Timestamp Information, Class of Service, Direct Measurement, Access Report, Follow-up Telemetry, HMAC |
-| RFC 9503 | Simple Two-Way Active Measurement Protocol (STAMP) Extensions for Segment Routing Networks | [URL](https://datatracker.ietf.org/doc/rfc9503/) | This RFC (Proposed Standard) specifies optional extensions to STAMP for measurements in networks with segment routing. | Destination Node Address, Return Path |
+| RFC 8972 | Simple Two-Way Active Measurement Protocol Optional Extensions | [URL](https://www.rfc-editor.org/info/rfc8972/) | In addition to specifying the means for extending STAMP to allow additional, optional functionality, RFC 8972 also specified several extensions. | Extra Padding, Location, Timestamp Information, Class of Service, Direct Measurement, Access Report, Follow-up Telemetry, HMAC |
+| RFC 9503 | Simple Two-Way Active Measurement Protocol (STAMP) Extensions for Segment Routing Networks | [URL](https://www.rfc-editor.org/info/rfc9503/) | This RFC (Proposed Standard) specifies optional extensions to STAMP for measurements in networks with segment routing. | Destination Node Address, Return Path |
+| RFC 10052 | Performance Measurement with Asymmetrical Traffic Using STAMP  | [URL](https://www.rfc-editor.org/info/rfc10052/) | In normal operation, a STAMP reflector generates a single packet in response to a STAMP test packet. However, "the use of asymmetrical test packets allow for the creation of more realistic flows of test packets and, thus, a closer approximation between active performance measurements and conditions experienced by the monitored application."[^rfc10052] | Reflected Test Packet Control |
 
 Below is a list of the RFCs where STAMP extensions are in the process of being standardized:
 
 | Draft | Title | URL | Description | TLV(s) |
 | -- | -- | -- | -- | -- |
-| draft-ietf-ippm-asymmetrical-pkts | Performance Measurement with Asymmetrical Traffic Using STAMP  | [URL](https://datatracker.ietf.org/doc/draft-ietf-ippm-asymmetrical-pkts/) | In normal operation, a STAMP reflector generates a single packet in response to a STAMP test packet. However, "the use of asymmetrical test packets allow for the creation of more realistic flows of test packets and, thus, a closer approximation between active performance measurements and conditions experienced by the monitored application."[^assym] | Reflected Test Packet Control |
 | draft-gandhi-ippm-stamp-ber |  Simple Two-Way Active Measurement Protocol (STAMP) Extensions for Bit Error Rate Measurement | [URL](https://datatracker.ietf.org/doc/draft-gandhi-ippm-stamp-ber/) | An extension to enable the measurement of bit error rates. | Bit Pattern in Padding, Bit Error Count in Padding |
 | draft-whimir-ippm-stamp-cos-ecn |  Update of the Simple Two-way Active Measurement Protocol Class of Service Extension - ECN  | [URL](https://datatracker.ietf.org/doc/draft-whimir-ippm-stamp-cos-ecn/) | An update to the semantics of the existing Class of Service Tlv[^stamp-extensions] to allow for detection of manipulation of ECN value on reverse path. | Class-of-Service |
 | draft-gandhi-ippm-stamp-ext-hdr | Simple Two-Way Active Measurement Protocol (STAMP) Extensions for Reflecting STAMP Packet IP Headers | [URL](https://datatracker.ietf.org/doc/draft-gandhi-ippm-stamp-ext-hdr/) | An extension to allow for the reflection of IPv6 extension headers[^ipv6] which is useful for monitoring the values of in-situ IOAM[^ioam] data. | Reflected IPv6 Extension Header Data,  Reflected Fixed Header Data (adds sub-TLV for Reflected Test Packet Control TLV)|
@@ -39,20 +39,20 @@ Below is a list of the RFCs where STAMP extensions are in the process of being s
 
 | Draft | Title | URL | Description |
 | -- | -- | -- | -- |
-| draft-ietf-spring-stamp-srpm |  Performance Measurement Using Simple Two-Way Active Measurement Protocol (STAMP) for Segment Routing Networks | [URL](https://datatracker.ietf.org/doc/draft-ietf-spring-stamp-srpm/) | A discussion of how to use STAMP as part of a "comprehensive SR Performance Measurement toolset ... ."[^srpm]  |
-
-[^srpm]: Gandhi, Rakesh, Clarence Filsfils, Bart Janssens, Mach Chen, and Richard "Footer" Foote. 2025. "Performance Measurement Using Simple Two-Way Active Measurement Protocol (STAMP) for Segment Routing Networks. Internet-Draft draft-ietf-spring-stamp-srpm-19. Internet Engineering Task Force; Internet Engineering Task Force. <https://datatracker.ietf.org/doc/draft-ietf-spring-stamp-srpm/19/>.
-
+| draft-ietf-spring-stamp-srpm-mpls |  Performance Measurement Using Simple Two-Way Active Measurement Protocol (STAMP) for Segment Routing over the MPLS Data Plane | [URL](https://datatracker.ietf.org/doc/draft-ietf-spring-stamp-srpm-mpls/) | A discussion of "procedures for performance measurement in SR-MPLS networks"[^srpm] using STAMP.  |
 
 ### Up-to-date Information
 
-Information on this page is always subject to change. The IPPM WG maintains an authoritative list of documents that are in the process of being standardized. Always verify the information here with the information on the IPPM WG's site at [https://datatracker.ietf.org/wg/ippm/documents/](https://datatracker.ietf.org/wg/ippm/documents/).
+Information on this page is always subject to change. The BPM WG maintains an authoritative list of documents that are in the process of being standardized. Always verify the information here with the information on the BPM WG's site at [https://datatracker.ietf.org/group/bpm/documents/](https://datatracker.ietf.org/group/bpm/documents/).
 
-[^assym]: Mirsky, Greg, Ernesto Ruffini, Henrik Nydell, Richard "Footer" Foote, and Will Hawkins. 2025. "Performance Measurement with Asymmetrical Traffic Using STAMP." Internet-Draft draft-ietf-ippm-asymmetrical-pkts-08. Internet Engineering Task Force; Internet Engineering Task Force. <https://datatracker.ietf.org/doc/draft-ietf-ippm-asymmetrical-pkts/08/>.
+[^srpm]: R. Gandhi, C. Filsfils, B. Janssens, M. Chen, and R. "Footer" Foote, "Performance Measurement Using Simple Two-Way Active Measurement Protocol (STAMP) for Segment Routing over the MPLS Data Plane," Internet Engineering Task Force, Internet Draft draft-ietf-spring-stamp-srpm-mpls-14, Nov. 2026. Accessed: Nov. 19, 2026. [Online]. Available: https://datatracker.ietf.org/doc/draft-ietf-spring-stamp-srpm-mpls
 
-[^stamp-extensions]: Mirsky, Greg, Xiao Min, Henrik Nydell, Richard "Footer" Foote, Adi Masputra, and Ernesto Ruffini. 2021. “Simple Two-Way Active Measurement Protocol Optional Extensions.” Request for Comments. RFC 8972; RFC Editor. <https://doi.org/10.17487/RFC8972>.
+[^rfc10052]: G. Mirsky, E. Ruffini, H. Nydell, R. Foote, and W. Hawkins, "Performance Measurement with Asymmetrical Traffic Using the Simple Two-Way Active Measurement Protocol (STAMP)," Internet Engineering Task Force, Request for Comments RFC 10052, Sep. 2026. doi: 10.17487/RFC10052.
 
-[^ioam]: Huike, Li. “What Is IOAM? - Huawei.” Huawei, 4 Nov. 2021, info.support.huawei.com/info-finder/encyclopedia/en/IOAM.html. Accessed 21 July 2025.
+[^stamp-extensions]: G. Mirsky, X. Min, H. Nydell, R. Foote, A. Masputra, and E. Ruffini, "Simple Two-Way Active Measurement Protocol Optional Extensions," Internet Engineering Task Force, Request for Comments RFC 8972, Jan. 2021. doi: 10.17487/RFC8972.
 
+[^ioam]: L. Huike, "What Is IOAM?," Huawei. Accessed: Nov. 19, 2026. [Online]. Available: https://info.support.huawei.com/info-finder/encyclopedia/en/IOAM.html
 
-[^ipv6]: Deering, Dr. Steve E., and Bob Hinden. 2017. “Internet Protocol, Version
+[^ipv6]: S. Deering and R. Hinden, "Internet Protocol, Version 6 (IPv6) Specification," Internet Engineering Task Force, Request for Comments RFC 8200, Jul. 2017. doi: 10.17487/RFC8200.
+
+[^new-name]: The Benchmarking & Performance Measurements (BPM) Working Group is the successor to the IPPM Working Group and the Benchmarking Methodology Working Group. The BPM WG started in late October 2026. The original work on specifying STAMP was done in the IPPM WG.

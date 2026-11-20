@@ -8,14 +8,14 @@ permalink: /deploying/
 
 ## Usage Scenarios
 
-STAMP is a versatile, no-pre-configuration protocol designed to build tools that make it easy to measure (one- _and_ two-way) characteristics of a network. STAMP, as defined solely in [RFC 8762](https://datatracker.ietf.org/doc/rfc8762/), provides enough features to serve as a building block for tools that measure, e.g., round-trip times, packet reordering, packet loss, and network path length. And, because the protocol is extensible,[^stamp-extensions] if there are measurements that tools cannot make using using the features of STAMP specified in [RFC 8762](https://datatracker.ietf.org/doc/rfc8762/), new features can always be added.
+STAMP is a versatile, no-pre-configuration protocol designed to build tools that make it easy to measure (one- _and_ two-way) characteristics of a network. STAMP, as defined solely in [RFC 8762](https://www.rfc-editor.org/info/rfc8762/), provides enough features to serve as a building block for tools that measure, e.g., round-trip times, packet reordering, packet loss, and network path length. And, because the protocol is extensible,[^stamp-extensions] if there are measurements that tools cannot make using using the features of STAMP specified in [RFC 8762](https://www.rfc-editor.org/info/rfc8762/), new features can always be added.
 
 Sometimes, though, too many options is just as bad as too few. To make the power of STAMP clear, this page outlines several scenarios where tools that implement STAMP can be used to make the lives of the network architect, engineer or analyst easier.
 
 | | Scenario | Related RFCs |
 | -- | -- | -- | 
-| 1 | [Measuring Round-Trip Time](#measuring-round-trip-time) | [RFC 8762](https://datatracker.ietf.org/doc/rfc8762/) |
-| 2 | [Detecting Differences in Path Length](#detecting-differences-in-path-length) | [RFC 8762](https://datatracker.ietf.org/doc/rfc8762/) |
+| 1 | [Measuring Round-Trip Time](#measuring-round-trip-time) | [RFC 8762](https://www.rfc-editor.org/info/rfc8762/) |
+| 2 | [Detecting Differences in Path Length](#detecting-differences-in-path-length) | [RFC 8762](https://www.rfc-editor.org/info/rfc8762/) |
 
 ### Measuring Round-Trip Time
 
@@ -51,6 +51,6 @@ Just another day at the office! Now, get back to dinner!
 
 [^one-way]: Yes, if the clocks on your Session Sender and their Session Reflector are synchronized, your Session Sender can determine one-way transit time. Oh, and, _yes_, STAMP as defined in [RFC 8762](https://datatracker.ietf.org/doc/rfc8762/) includes a mechanism for Session Senders and Session Reflectors to communicate that their clocks are synchronized!
 
-[^stamp-extensions]: Mirsky, Greg, Xiao Min, Henrik Nydell, Richard "Footer" Foote, Adi Masputra, and Ernesto Ruffini. 2021. "Simple Two-Way Active Measurement Protocol Optional Extensions." Request for Comments. RFC 8972; RFC Editor. <https://doi.org/10.17487/RFC8972>.
+[^stamp-extensions]: G. Mirsky, X. Min, H. Nydell, R. Foote, A. Masputra, and E. Ruffini, "Simple Two-Way Active Measurement Protocol Optional Extensions," Internet Engineering Task Force, Request for Comments RFC 8972, Jan. 2021. doi: 10.17487/RFC8972.
 
 [^pun-intended]: Yes, that pun was _definitely_ intended.

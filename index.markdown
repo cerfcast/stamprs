@@ -23,7 +23,7 @@ In your copious free time you used your ample personnel and budgetary resources 
 
 It would seem that whether you are maintaining the SLAs you provide for your world-class network or you are adding new features to your network, a suite of tools that offered a "straightforward mechanism for active performance monitoring that can provide deterministic behavior and inherent separation of control (vendor-specific configuration or orchestration) and test functions"[^stamp-rfc] would make you look like the hero you are!
 
-[^stamp-rfc]: Mirsky, Greg, Guo Jun, Henrik Nydell, and Richard "Footer" Foote. 2020. "Simple Two-Way Active Measurement Protocol." Request for Comments. RFC 8762; RFC Editor. <https://doi.org/10.17487/RFC8762>.
+[^stamp-rfc]: G. Mirsky, G. Jun, H. Nydell, and R. Foote, "Simple Two-Way Active Measurement Protocol," Internet Engineering Task Force, Request for Comments RFC 8762, Mar. 2020. doi: 10.17487/RFC8762.
 
 That is _exactly_ what makes STAMP the incredible protocol it is. STAMP is an extensible tool that "enables measurement of both one-way and round-trip performance metrics, like delay, delay variation, and packet loss" on production networks. It expects no ahead-of-time coordination between equipment taking measurements and equipment providing data. It is adaptable to new and interesting data-collection techniques. It can run on devices even with modest computational power. It is compatible with existing network measurement protocols and supported by popular network-device operating systems.
 

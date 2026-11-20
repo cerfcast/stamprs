@@ -18,11 +18,10 @@ This page will serve as a place to coordinate and store ideas, notes and drafts 
 | -- | -- | -- |
 | Session Reflector Semantics TTL of Test Packet Cannot Be Read | The RFC contains no language describing the value that the reflector should include in the Session Sender TTL field of a reflected STAMP packet if the TTL value cannot be read from the IP header of the test packet. The language seems to presume that fetching the TTL is always possible. Having a description for the behavior of an implementation when that is not the case would help the life of the implementer. | [Rejected Errata](https://www.rfc-editor.org/errata/eid8518), [Mailing List Discussion](https://mailarchive.ietf.org/arch/msg/ippm/QhoDmae-983IKn_HFF1XCADWP0s/) |
 
-[^stamp-extensions]: Mirsky, Greg, Xiao Min, Henrik Nydell, Richard "Footer" Foote, Adi Masputra, and Ernesto Ruffini. 2021. “Simple Two-Way Active Measurement Protocol Optional Extensions.” Request for Comments. RFC 8972; RFC Editor. <https://doi.org/10.17487/RFC8972>.
+[^stamp-extensions]: G. Mirsky, X. Min, H. Nydell, R. Foote, A. Masputra, and E. Ruffini, "Simple Two-Way Active Measurement Protocol Optional Extensions," Internet Engineering Task Force, Request for Comments RFC 8972, Jan. 2021. doi: 10.17487/RFC8972.
 
+[^ietf-tao]: N. ten Oever and G. Wood, "Retiring the Tao of the IETF," Internet Engineering Task Force, Request for Comments RFC 9592, Jun. 2024. doi: 10.17487/RFC9592.
 
-[^ietf-tao]: Oever, Niels ten, and Greg Wood. 2024. "Retiring the Tao of the IETF." Request for Comments. RFC 9592; RFC Editor.  <https://doi.org/10.17487/RFC9592>.
+[^ietf-ntpv4]: D. Mills, J. Martin, J. Burbank, and W. Kasch, "Network Time Protocol Version 4: Protocol and Algorithms Specification," Internet Engineering Task Force, Request for Comments RFC 5905, Jun. 2010. doi: 10.17487/RFC5905.
 
-[^ietf-ntpv4]: Martin, Jim, Jack Burbank, William Kasch, and Professor David L. Mills.  2010. "Network Time Protocol Version 4: Protocol and Algorithms Specification." Request for Comments. RFC 5905; RFC Editor. <https://doi.org/10.17487/RFC5905>.
-
-[^ietf-http2]: Thomson, Martin, and Cory Benfield. 2022. "HTTP/2." Request for Comments. RFC 9113; RFC Editor. <https://doi.org/10.17487/RFC9113>.
+[^ietf-http2]: M. Thomson and C. Benfield, "HTTP/2," Internet Engineering Task Force, Request for Comments RFC 9113, Jun. 2022. doi: 10.17487/RFC9113.

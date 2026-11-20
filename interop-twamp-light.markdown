@@ -39,7 +39,7 @@ For a given _STAMP Sender Configuration_, the following table describes tests re
 
 [^refs]: All section numbers in this column are for [RFC5357](https://www.rfc-editor.org/info/rfc5357).
 
-[^stamp]: Mirsky, Greg, Guo Jun, Henrik Nydell, and Richard "Footer" Foote. 2020. "Simple Two-Way Active Measurement Protocol." Request for Comments. RFC 8762; RFC Editor. <https://doi.org/10.17487/RFC8762>.
+[^stamp]: G. Mirsky, G. Jun, H. Nydell, and R. Foote, "Simple Two-Way Active Measurement Protocol," Internet Engineering Task Force, Request for Comments RFC 8762, Mar. 2020. doi: 10.17487/RFC8762.
 
 ### `twamp-light` (From CUJO, nee Domos)
 
